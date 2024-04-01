@@ -1,0 +1,13 @@
+@mixin flex($display,$flex-direction,$align-items,$justify-content){
+    display: $display;
+    flex-direction: $flex-direction;
+    align-items: $align-items;
+    justify-content: $justify-content;
+}
+
+@mixin heading($color,$font-size,$f-family,$l-height){
+    font-family: $f-family;
+    font-size: $font-size;
+    line-height:$l-height ;
+    color: $color;
+}
